@@ -17,7 +17,7 @@ PLATFORMS = ["binary_sensor", "camera", "switch", "sensor"]
 GEO_URL = "https://geo.mybuildings.abb.com"
 DEFAULT_PORTAL_URL = "https://api.eu.mybuildings.abb.com"
 
-CLIENT_TYPE = "com.abb.ispf.client.globalip.app.abb.android"
+CLIENT_TYPE = "com.abb.ispf.client.globalip.app.bje.android"
 GATEWAY_CLIENT_TYPE = "com.abb.ispf.client.welcome.gateway"
 
 EVENT_TYPE_DISCOVERY = "com.abb.ispf.event.discovery"
