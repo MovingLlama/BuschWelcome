@@ -37,10 +37,10 @@ A fully asynchronous custom integration for Home Assistant to control and monito
 1. Go to **Settings** -> **Devices & Services** in Home Assistant.
 2. Click **+ Add Integration**.
 3. Search for **Busch-Jaeger Welcome IP**.
-4. Enter your IP Gateway configuration:
-    *   **Host**: The IP address of your IP-Gateway 83342.
-    *   **Username**: Your API username.
-    *   **Password**: Your API password.
+4. Enter your configuration:
+    *   **Host**: The local IP address of your IP-Gateway or 4.3" Indoor Station.
+    *   **Username**: Your Busch-Jaeger (MyBuildings) Portal email address.
+    *   **Password**: Your Busch-Jaeger Portal password.
 5. Click **Submit**.
 
 ## Known Limitations / Future Roadmap

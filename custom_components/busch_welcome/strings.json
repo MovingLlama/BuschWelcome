@@ -3,17 +3,17 @@
     "step": {
       "user": {
         "title": "Connect to Busch-Jaeger Welcome IP",
-        "description": "Enter your IP Gateway credentials.",
+        "description": "Enter your Busch-Jaeger (MyBuildings) Portal credentials and the local IP address of your device.",
         "data": {
-          "host": "Host/IP Address",
-          "username": "Username",
-          "password": "Password"
+          "host": "Local IP Address",
+          "username": "Portal Username (Email)",
+          "password": "Portal Password"
         }
       }
     },
     "error": {
       "cannot_connect": "Failed to connect",
-      "invalid_auth": "Invalid authentication",
+      "invalid_auth": "Invalid portal authentication",
       "unknown": "Unexpected error"
     },
     "abort": {

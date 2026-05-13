@@ -3,17 +3,17 @@
     "step": {
       "user": {
         "title": "Mit Busch-Jaeger Welcome IP verbinden",
-        "description": "Geben Sie Ihre IP-Gateway Zugangsdaten ein.",
+        "description": "Geben Sie Ihre Busch-Jaeger (MyBuildings) Portal Zugangsdaten und die lokale IP-Adresse Ihres Geräts ein.",
         "data": {
-          "host": "Host/IP-Adresse",
-          "username": "Benutzername",
-          "password": "Passwort"
+          "host": "Lokale IP-Adresse",
+          "username": "Portal Benutzername (E-Mail)",
+          "password": "Portal Passwort"
         }
       }
     },
     "error": {
       "cannot_connect": "Verbindung fehlgeschlagen",
-      "invalid_auth": "Ungültige Authentifizierung",
+      "invalid_auth": "Ungültige Portal-Authentifizierung",
       "unknown": "Unerwarteter Fehler"
     },
     "abort": {
