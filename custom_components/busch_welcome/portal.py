@@ -820,4 +820,3 @@ def gateway_authorize(
         return sid
     finally:
         session.close()
-)
