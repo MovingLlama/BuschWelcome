@@ -1,7 +1,7 @@
 # Busch-Jaeger Welcome IP Custom Integration for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-[![GitHub Release](https://img.shields.io/github/v/release/stefan-seyerl/BuschWelcome)](https://github.com/stefan-seyerl/BuschWelcome/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/MovingLlama/BuschWelcome)](https://github.com/MovingLlama/BuschWelcome/releases)
 
 A fully asynchronous custom integration for Home Assistant to control and monitor the **Busch-Jaeger / ABB Welcome IP System** using the IP-Gateway (83342).
 
