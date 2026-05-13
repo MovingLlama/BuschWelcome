@@ -21,14 +21,14 @@ A fully asynchronous custom integration for Home Assistant to control and monito
 1. Open HACS in your Home Assistant instance.
 2. Click on **Integrations**.
 3. Click the three dots in the top right corner and select **Custom repositories**.
-4. Add the URL of this repository: `https://github.com/stefan-seyerl/BuschWelcome`
+4. Add the URL of this repository: `https://github.com/MovingLlama/BuschWelcome`
 5. Select **Integration** as the category and click **Add**.
 6. Close the Custom repositories window. You should now see "Busch-Jaeger Welcome IP" in HACS. Click on it and click **Download**.
 7. Restart Home Assistant.
 
 ### Method 2: Manual Installation
 
-1. Download the latest release from the [Releases](https://github.com/stefan-seyerl/BuschWelcome/releases) page (the `busch_welcome.zip` file).
+1. Download the latest release from the [Releases](https://github.com/MovingLlama/BuschWelcome/releases) page (the `busch_welcome.zip` file).
 2. Extract the contents and copy the `custom_components/busch_welcome` folder into the `custom_components` directory of your Home Assistant configuration directory (`/config/custom_components/busch_welcome`).
 3. Restart Home Assistant.
 

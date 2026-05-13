@@ -1,12 +1,12 @@
 {
   "domain": "busch_welcome",
   "name": "Busch-Jaeger Welcome IP",
-  "codeowners": ["@stefan-seyerl"],
+  "codeowners": ["@MovingLlama"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/stefan-seyerl/BuschWelcome",
+  "documentation": "https://github.com/MovingLlama/BuschWelcome",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/stefan-seyerl/BuschWelcome/issues",
+  "issue_tracker": "https://github.com/MovingLlama/BuschWelcome/issues",
   "requirements": ["aiohttp>=3.8.0", "cryptography>=41.0.0", "requests>=2.31.0"],
   "version": "1.0.0"
 }
