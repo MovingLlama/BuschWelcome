@@ -19,6 +19,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Update manifest.json version
+        run: |
+          VERSION="0.${{ github.run_number }}"
+          jq ".version=\"$VERSION\"" custom_components/busch_welcome/manifest.json > temp.json && mv temp.json custom_components/busch_welcome/manifest.json
+
       - name: Zip integration
         run: |
           cd custom_components/busch_welcome
@@ -28,7 +33,7 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ github.run_number }}
-          name: Release v${{ github.run_number }}
+          tag_name: v0.${{ github.run_number }}
+          name: Release v0.${{ github.run_number }}
           files: busch_welcome.zip
           generate_release_notes: true
