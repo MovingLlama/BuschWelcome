@@ -142,8 +142,10 @@ class BuschWelcomeConfigFlow(ConfigFlow, domain=DOMAIN):
                 except PortalError as err:
                     msg = str(err).lower()
                     if "401" in msg or "auth" in msg:
+                        _log_error("Portal authentication error: %s", err)
                         errors["base"] = "invalid_auth"
                     elif "no discovery" in msg or "gateway entry" in msg:
+                        _log_error("Gateway discovery error: %s", err)
                         errors["base"] = "gateway_not_found"
                     else:
                         _log_error("Portal pairing error: %s", err)

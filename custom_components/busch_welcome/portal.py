@@ -230,7 +230,8 @@ def request_certificate(
     _http_trace(resp, "cert/request")
     _log(logging.INFO, "Cert response: HTTP %d (%d bytes)", resp.status_code, len(resp.content))
     if resp.status_code == 401:
-        raise PortalError("Portal authentication failed (HTTP 401) — check MyBuildings username/password")
+        _log(logging.ERROR, "Portal authentication failed (HTTP 401). Response body: %s", resp.text[:500])
+        raise PortalError(f"Portal authentication failed (HTTP 401). Check username/password. Server response: {resp.text[:200]}")
     if resp.status_code not in (200, 201):
         _log(logging.ERROR, "Cert request failed body: %s", resp.text[:500])
         raise PortalError(
