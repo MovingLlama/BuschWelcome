@@ -5,6 +5,7 @@ DOMAIN = "busch_welcome"
 CONF_HOST = "host"
 CONF_USERNAME = "username"
 CONF_PASSWORD = "password"
+CONF_GATEWAY_PASSWORD = "gateway_password"
 
 DEFAULT_NAME = "Busch Welcome"
 DEFAULT_PORT = 80
